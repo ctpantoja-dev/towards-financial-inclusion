@@ -32,7 +32,7 @@ def introduction():
 
     # Display data
     st.markdown("**The Data**")
-    st.table(data)
+    st.table(data.head(20))
     st.markdown("Source: Global Findex 2017 from World Bank.")
 
 
